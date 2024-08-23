@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="DynamicTabbarMAUI.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:DynamicTabbarMAUI"
+    xmlns:page="clr-namespace:DynamicTabbarMAUI.Pages"
+    Title="DynamicTabbarMAUI"
+    Shell.FlyoutBehavior="Disabled">
+
+    <TabBar x:Name="tabbar">
+        <!--<ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate page:HomePage}"
+            Icon="home.png"
+            Route="MainPage" />
+        <ShellContent
+            Title="Favorites"
+            ContentTemplate="{DataTemplate page:FavoritesPage}"
+            Icon="favorites.png"
+            Route="FavoritesPage" />
+        <ShellContent
+            Title="Profile"
+            ContentTemplate="{DataTemplate page:ProfilePage}"
+            Icon="user_profile.png"
+            Route="ProfilePage" />-->
+    </TabBar>
+
+</Shell>
